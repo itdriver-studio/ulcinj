@@ -9,4 +9,50 @@
   }
 }
 
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+
+  .header__inner {
+    padding: 10px 0;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    position: absolute;
+    min-width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transform: translateY(25%);
+    align-items: center;
+    flex-grow: 1;
+    display: none;
+  }
+
+  .nav__item+.nav__item {
+    margin-left: 0;
+  }
+
+  .nav__item {
+    margin-bottom: 25px;
+  }
+
+  .burger {
+    display: block;
+    /* min-height: 25px; */
+    height: 100%;
+    flex-grow: 1;
+
+  }
+
+  .social__link {
+    margin-left: 10px;
+  }
+
+  .social {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+
+
+}

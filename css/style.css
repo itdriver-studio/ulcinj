@@ -24,6 +24,11 @@
   align-items: center;
 }
 
+.burger {
+  width: 35px;
+  display: none;
+}
+
 .nav__list {
   display: flex;
   text-transform: uppercase;
@@ -48,7 +53,8 @@
 
 .social {
   display: flex;
-  align-items: stretch
+  align-items: center;
+  justify-content: end;
 }
 
 .social__link+.social__link {
