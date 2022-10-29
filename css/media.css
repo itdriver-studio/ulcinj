@@ -24,13 +24,15 @@
     transform: translateY(-55%);
     align-items: center;
     transition: .5s ease;
+    border-radius: 25px;
   }
 
   .nav__list-adaptive {
     display: flex;
-    transform: translateY(125%);
-    background-color: rgba(0, 179, 255, 0.4);
+    transform: translateY(105%);
+    background-color: rgba(45, 43, 44, 0.6);
     padding-top: 25px;
+    color: fff;
   }
 
   .nav__item+.nav__item {
