@@ -1,3 +1,7 @@
+section {
+  padding: 70px 0;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1420px;
@@ -15,7 +19,7 @@
 
 .header__inner {
   padding: 15px 0;
-  background-color: rgba(0, 179, 255, 0.4)
+  background-color: rgba(0, 179, 255, 0.4);
 }
 
 .nav {
@@ -38,6 +42,7 @@
   margin-left: 30px;
 }
 
+
 .nav__item-link {
   padding: 0 3px 5px;
   border-bottom: 1px solid transparent;
@@ -56,4 +61,27 @@
 
 .social__link+.social__link {
   margin-left: 15px;
+}
+
+
+/*====== Excursionsc=====*/
+
+.excursion__card {
+  border: 3px solid rgba(0, 179, 255, 0.4);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.excursions__title {
+  margin-bottom: 50px;
+}
+
+.excursions__text {
+  margin-bottom: 70px;
+}
+
+/*====== Slider =====*/
+
+.swiper-container {
+  overflow: hidden;
 }

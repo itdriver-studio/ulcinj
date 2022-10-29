@@ -4,3 +4,7 @@ let burger = document.querySelector(".burger");
 burger.onclick = () => {
   menu.classList.toggle('nav__list-adaptive');
 }
+
+let swiper = new Swiper(".slider", {
+
+});
