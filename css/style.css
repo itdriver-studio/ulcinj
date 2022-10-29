@@ -66,10 +66,19 @@ section {
 
 /*====== Excursionsc=====*/
 
-.excursion__card {
+.excursions__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   border: 3px solid rgba(0, 179, 255, 0.4);
   padding: 10px;
   border-radius: 3px;
+  min-width: 0;
+}
+
+.excursions__card-text {
+  flex-direction: column;
+  max-width: 500px;
 }
 
 .excursions__title {
@@ -85,12 +94,9 @@ section {
 .swiper-container {
   overflow: hidden;
   max-width: 500px;
-  height: 400px;
+  max-height: 281px;
 }
 
-.swiper-slide .excusrions__img {
-  /* object-fit: cover; */
+.excusrions__img {
   width: 100%;
 }
-
-.excursions__slide {}
