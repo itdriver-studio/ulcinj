@@ -84,4 +84,13 @@ section {
 
 .swiper-container {
   overflow: hidden;
+  max-width: 500px;
+  height: 400px;
 }
+
+.swiper-slide .excusrions__img {
+  /* object-fit: cover; */
+  width: 100%;
+}
+
+.excursions__slide {}
