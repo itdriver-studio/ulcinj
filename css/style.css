@@ -64,39 +64,42 @@ section {
 }
 
 
-/*====== Excursionsc=====*/
-
-.excursions__card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  border: 3px solid rgba(0, 179, 255, 0.4);
-  padding: 10px;
-  border-radius: 3px;
-  min-width: 0;
+/*====== Excursions=====*/
+.excursions {
+  background-image: url(../img/excursions-bg.jpg);
 }
 
-.excursions__card-text {
-  flex-direction: column;
-  max-width: 500px;
-}
-
-.excursions__title {
+.excursions__heading {
+  text-align: center;
   margin-bottom: 50px;
 }
 
+.excursions__card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 30px;
+  background-color: rgba(108, 102, 105, 0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .excursions__text {
-  margin-bottom: 70px;
+  max-width: 600px;
+}
+
+.excursions__title {
+  margin-bottom: 30px;
 }
 
 /*====== Slider =====*/
 
-.swiper-container {
-  overflow: hidden;
-  max-width: 500px;
-  max-height: 281px;
+.swiper {
+  min-width: 500px;
+  margin: 0;
+
 }
 
-.excusrions__img {
-  width: 100%;
+.swiper-wrapper {
+  max-width: 500px;
 }

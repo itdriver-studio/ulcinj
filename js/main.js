@@ -5,10 +5,10 @@ burger.onclick = () => {
   menu.classList.toggle('nav__list-adaptive');
 }
 
-let swiper = new Swiper(".slider", {
+let swiper = new Swiper(".swiper", {
   loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 500,
   },
   speed: 1800,
   effect: 'fade',
