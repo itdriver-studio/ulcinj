@@ -7,6 +7,21 @@
     padding: 0;
     font-size: 12px;
   }
+
+  .excursions__card {
+    flex-wrap: wrap;
+    padding: 15px;
+
+  }
+
+  .excursions__text {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .swiper {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
@@ -32,7 +47,7 @@
     transform: translateY(105%);
     background-color: rgba(45, 43, 44, 0.6);
     padding-top: 25px;
-    color: fff;
+    /* color: fff; */
   }
 
   .nav__item+.nav__item {
