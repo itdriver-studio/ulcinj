@@ -1,15 +1,12 @@
 @media (max-width: 1000px) {
   .excursions__card {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 
-  .excursions__card-text {
-    margin-right: 0;
-    margin-bottom: 40px;
-    max-width: 100%;
-  }
+
 
   .excursions__slider {
+    max-width: 400px;
     align-self: center;
   }
 }
@@ -27,12 +24,17 @@
   .excursions__card {
     flex-wrap: wrap;
     padding: 15px;
-
   }
 
-  .excursions__text {
-    max-width: 100%;
+  .excursions__card-text {
     margin-right: 0;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+
+  .excursions__slider {
+    max-width: 100%;
+    align-self: center;
   }
 }
 
@@ -94,4 +96,5 @@
   .excursions__slider {
     width: 100%;
   }
+
 }
