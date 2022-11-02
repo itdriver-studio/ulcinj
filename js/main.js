@@ -13,10 +13,13 @@ menu.addEventListener('click', () => {
 
 $('.excursions__slider').slick({
   autoplay: true,
-  speed: 2500,
   autoplaySpeed: 1500,
   arrows: false,
   pauseOnFocus: false,
   pauseOnHover: false,
+  pauseOnClick: false,
+  draggable: false,
   fade: true,
+  speed: 2200,
+
 });
