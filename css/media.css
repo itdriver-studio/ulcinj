@@ -48,20 +48,19 @@
   .nav__list {
     flex-direction: column;
     position: absolute;
-    max-width: 100%;
-    right: 50px;
-    left: 50px;
-    transform: translateY(-55%);
+    width: 50%;
+    top: 0px;
+    left: -50%;
     align-items: center;
     transition: .5s ease;
-    border-radius: 25px;
+    background-color: rgba(45, 43, 44, 0.99);
+    padding-top: 20px;
+
   }
 
   .nav__list-adaptive {
     display: flex;
-    transform: translateY(105%);
-    background-color: rgba(45, 43, 44, 0.6);
-    padding-top: 25px;
+    left: 0px;
   }
 
   .nav__item+.nav__item {
@@ -72,8 +71,13 @@
     margin-bottom: 25px;
   }
 
-  .nav__item {
-    margin-bottom: 25px;
+  .nav__item-link {
+    padding: 12px;
+    border: none;
+  }
+
+  .nav__item-link:hover {
+    border: 0px solid #000;
   }
 
   .burger {
@@ -96,5 +100,21 @@
   .excursions__slider {
     width: 100%;
   }
+
+  @media (max-width: 500px) {
+    .container {
+      padding: 5px;
+    }
+
+    .header__inner {
+      padding: 0;
+    }
+
+    .burger,
+    .social {
+      flex-grow: 0;
+    }
+  }
+
 
 }
