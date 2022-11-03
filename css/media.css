@@ -1,9 +1,4 @@
 @media (max-width: 1000px) {
-  .excursions__card {
-    /* flex-direction: column; */
-  }
-
-
 
   .excursions__slider {
     max-width: 400px;
@@ -12,6 +7,7 @@
 }
 
 @media (max-width: 850px) {
+
   .header {
     background-position: left;
   }
@@ -49,13 +45,22 @@
     flex-direction: column;
     position: absolute;
     width: 50%;
-    top: 0px;
+    top: 45px;
     left: -50%;
     align-items: center;
     transition: .5s ease;
     background-color: rgba(45, 43, 44, 0.99);
     padding-top: 20px;
+  }
 
+  .nav__list::after {
+    content: "";
+    background-image: url(../img/close__icon.svg);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 5px;
   }
 
   .nav__list-adaptive {
@@ -114,6 +119,11 @@
     .social {
       flex-grow: 0;
     }
+
+    .nav__list {
+      top: 35px;
+    }
+
   }
 
 

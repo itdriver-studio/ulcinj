@@ -21,5 +21,8 @@ $('.excursions__slider').slick({
   draggable: false,
   fade: true,
   speed: 2200,
+});
+
+$('.rooms__slider-big').slick({
 
 });
