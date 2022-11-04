@@ -37,11 +37,18 @@ $('.rooms__slidersmallOne').slick({
   centerMode: true,
   arrows: true,
   responsive: [{
-    breakpoint: 700,
-    settings: {
-      slidesToShow: 2,
+      breakpoint: 1240,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 2,
+      },
     }
-  }],
+  ],
 });
 $('.rooms__sliderbigTwo').slick({
   asNavFor: '.rooms__slidersmallTwo',
@@ -57,11 +64,18 @@ $('.rooms__slidersmallTwo').slick({
   centerMode: true,
   arrows: true,
   responsive: [{
-    breakpoint: 700,
-    settings: {
-      slidesToShow: 2,
+      breakpoint: 1240,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 2,
+      },
     }
-  }],
+  ],
 });
 
 $('.rooms__sliderbigThree').slick({
@@ -78,11 +92,18 @@ $('.rooms__slidersmallThree').slick({
   centerMode: true,
   arrows: true,
   responsive: [{
-    breakpoint: 700,
-    settings: {
-      slidesToShow: 2,
+      breakpoint: 1240,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 2,
+      },
     }
-  }],
+  ],
 });
 
 $('.rooms__sliderbigFour').slick({
@@ -99,9 +120,16 @@ $('.rooms__slidersmallFour').slick({
   centerMode: true,
   arrows: true,
   responsive: [{
-    breakpoint: 700,
-    settings: {
-      slidesToShow: 2,
+      breakpoint: 1240,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 2,
+      },
     }
-  }],
+  ],
 });
