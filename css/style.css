@@ -154,6 +154,8 @@ section {
 .allocation {
   background-image: url(../img/hotel.jpg);
   color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -161,6 +163,7 @@ section {
   background-color: rgba(0, 0, 0, 0.85);
   box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.59);
   padding: 20px 10px;
+  border-radius: 3px;
 }
 
 .allocation__title {
@@ -174,50 +177,78 @@ section {
   margin-bottom: 30px;
 }
 
+.rooms__inner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .room__card {
   max-width: 600px;
+  margin-bottom: 50px;
+  padding: 0 15px;
 }
 
 .room__card-descr {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.facilities {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.facilities-img {
+  width: 30px;
+  height: 30px;
+}
+
+.facilities-img+.facilities-img {
+  margin-left: 10px;
 }
 
 .rooms__slider-wrap {
-  max-width: 450px;
+  max-width: 600px;
 }
 
 .rooms__slider-wrap img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* border-radius: 25px; */
 }
 
-.rooms__slider-big {
+.sliderBig {
+  margin-bottom: 10px;
+}
+
+.sliderSmall {
   position: relative;
+  margin-bottom: 10px;
 }
 
-.rooms__slider-big .slick-arrow {
+.sliderSmall .slick-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 100;
   font-size: 0;
   width: 13px;
-  height: 30px;
+  height: 22px;
   border: none;
 }
 
-.rooms__slider-big .slick-arrow.slick-prev {
-  left: 10px;
+.sliderSmall .slick-arrow.slick-prev {
+  left: 5px;
   background: url(../img/arrow-left.svg) no-repeat;
   background-size: contain;
 }
 
-.rooms__slider-big .slick-arrow.slick-next {
-  right: 10px;
+.sliderSmall .slick-arrow.slick-next {
+  right: 5px;
   background: url(../img/arrow-right.svg) no-repeat;
   background-size: contain;
+}
 
-
+.rooms__slidersmall-img {
+  padding: 0 10px;
 }

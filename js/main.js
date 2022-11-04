@@ -23,6 +23,85 @@ $('.excursions__slider').slick({
   speed: 2200,
 });
 
-$('.rooms__slider-big').slick({
+$('.rooms__sliderbigOne').slick({
+  asNavFor: '.rooms__slidersmallOne',
+  infinite: true,
+  arrows: false,
+});
 
+$('.rooms__slidersmallOne').slick({
+  arrows: false,
+  slidesToShow: 5,
+  asNavFor: '.rooms__sliderbigOne',
+  infinite: true,
+  centerMode: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 700,
+    settings: {
+      slidesToShow: 2,
+    }
+  }],
+});
+$('.rooms__sliderbigTwo').slick({
+  asNavFor: '.rooms__slidersmallTwo',
+  infinite: true,
+  arrows: false,
+});
+
+$('.rooms__slidersmallTwo').slick({
+  arrows: false,
+  slidesToShow: 5,
+  asNavFor: '.rooms__sliderbigTwo',
+  infinite: true,
+  centerMode: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 700,
+    settings: {
+      slidesToShow: 2,
+    }
+  }],
+});
+
+$('.rooms__sliderbigThree').slick({
+  asNavFor: '.rooms__slidersmallThree',
+  infinite: true,
+  arrows: false,
+});
+
+$('.rooms__slidersmallThree').slick({
+  arrows: false,
+  slidesToShow: 5,
+  asNavFor: '.rooms__sliderbigThree',
+  infinite: true,
+  centerMode: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 700,
+    settings: {
+      slidesToShow: 2,
+    }
+  }],
+});
+
+$('.rooms__sliderbigFour').slick({
+  asNavFor: '.rooms__slidersmallFour',
+  infinite: true,
+  arrows: false,
+});
+
+$('.rooms__slidersmallFour').slick({
+  arrows: false,
+  slidesToShow: 5,
+  asNavFor: '.rooms__sliderbigFour',
+  infinite: true,
+  centerMode: true,
+  arrows: true,
+  responsive: [{
+    breakpoint: 700,
+    settings: {
+      slidesToShow: 2,
+    }
+  }],
 });
