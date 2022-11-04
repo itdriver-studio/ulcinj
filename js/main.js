@@ -133,3 +133,17 @@ $('.rooms__slidersmallFour').slick({
     }
   ],
 });
+
+$('.gallery__caegories-link').click(function () {
+  const value = $(this).attr('data-filter');
+  if (value == 'all') {
+    $('.gallery__bricks-item').show('1000');
+  } else {
+    $('.gallery__bricks-item').not('.' + value).hide('1000');
+    $('.gallery__bricks-item').filter('.' + value).show('1000');
+  }
+})
+
+$('.gallery__caegories-link').click(function () {
+  $(this).addClass('active').siblings().removeClass('active');
+})

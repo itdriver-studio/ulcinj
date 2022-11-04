@@ -235,6 +235,7 @@ section {
   width: 13px;
   height: 22px;
   border: none;
+  z-index: 1;
 }
 
 .sliderSmall .slick-arrow.slick-prev {
@@ -251,4 +252,67 @@ section {
 
 .rooms__slidersmall-img {
   padding: 0 10px;
+}
+
+/*======Gallery=====*/
+
+.gallery__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.gallery__subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery__categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.gallery__caegories-link {
+  background-color: #eee;
+  padding: 8px 20px;
+  margin: 5px 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.gallery__caegories-link+.gallery__caegories-link {
+  /* margin-left: 10px; */
+}
+
+.gallery__caegories-link.active {
+  background-color: #03a9f4;
+  color: #fff;
+  transition: all .5s;
+}
+
+.gallery__bricks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery__bricks-item {
+  position: relative;
+  width: calc(1400px / 3 - 10px);
+  height: 300px;
+  margin: 5px;
+}
+
+.gallery__bricks-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

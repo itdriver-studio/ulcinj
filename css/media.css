@@ -1,3 +1,11 @@
+@media (max-width: 1440px) {
+
+  .gallery__bricks-item {
+    width: calc(50% - 10px);
+    height: 380px;
+  }
+}
+
 @media (max-width: 1240px) {
   .room__card {
     max-width: 500px;
@@ -122,22 +130,32 @@
     padding: 0;
   }
 
-  @media (max-width: 500px) {
-    .container {
-      padding: 5px;
-    }
+  .gallery__bricks-item {
+    width: 100%;
+    height: 340px;
+  }
+}
 
-    .header__inner {
-      padding: 0;
-    }
+@media (max-width: 500px) {
+  .container {
+    padding: 5px;
+  }
 
-    .burger,
-    .social {
-      flex-grow: 0;
-    }
+  .header__inner {
+    padding: 0;
+  }
 
-    .nav__list {
-      top: 35px;
-    }
+  .burger,
+  .social {
+    flex-grow: 0;
+  }
+
+  .nav__list {
+    top: 35px;
+  }
+
+  .gallery__bricks-item {
+    width: 100%;
+    height: 280px;
   }
 }
