@@ -27,6 +27,12 @@ $('.rooms__sliderbigOne').slick({
   asNavFor: '.rooms__slidersmallOne',
   infinite: true,
   arrows: false,
+  responsive: [{
+    breakpoint: 500,
+    settings: {
+      arrows: true,
+    },
+  }],
 });
 
 $('.rooms__slidersmallOne').slick({
@@ -50,10 +56,17 @@ $('.rooms__slidersmallOne').slick({
     }
   ],
 });
+
 $('.rooms__sliderbigTwo').slick({
   asNavFor: '.rooms__slidersmallTwo',
   infinite: true,
   arrows: false,
+  responsive: [{
+    breakpoint: 500,
+    settings: {
+      arrows: true,
+    },
+  }],
 });
 
 $('.rooms__slidersmallTwo').slick({
@@ -82,6 +95,12 @@ $('.rooms__sliderbigThree').slick({
   asNavFor: '.rooms__slidersmallThree',
   infinite: true,
   arrows: false,
+  responsive: [{
+    breakpoint: 500,
+    settings: {
+      arrows: true,
+    },
+  }],
 });
 
 $('.rooms__slidersmallThree').slick({
@@ -110,6 +129,12 @@ $('.rooms__sliderbigFour').slick({
   asNavFor: '.rooms__slidersmallFour',
   infinite: true,
   arrows: false,
+  responsive: [{
+    breakpoint: 500,
+    settings: {
+      arrows: true,
+    },
+  }],
 });
 
 $('.rooms__slidersmallFour').slick({

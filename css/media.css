@@ -125,6 +125,10 @@
     width: 100%;
   }
 
+  .rooms__inner :last-child {
+    margin-bottom: 0;
+  }
+
   .room__card {
     max-width: 100%;
     padding: 0;
@@ -152,6 +156,10 @@
 
   .nav__list {
     top: 35px;
+  }
+
+  .sliderSmall {
+    display: none;
   }
 
   .gallery__bricks-item {

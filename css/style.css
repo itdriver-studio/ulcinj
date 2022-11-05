@@ -126,7 +126,6 @@ section {
   position: absolute;
   top: 0;
   z-index: 1000;
-
 }
 
 .excursions__slider-img {
@@ -141,7 +140,7 @@ section {
 
 .slick-track {
   display: flex;
-  min-width: 300px;
+  min-width: 200px;
 }
 
 .slick-list {
@@ -218,6 +217,7 @@ section {
 }
 
 .sliderBig {
+  position: relative;
   margin-bottom: 10px;
 }
 
@@ -226,7 +226,8 @@ section {
   margin-bottom: 10px;
 }
 
-.sliderSmall .slick-arrow {
+.sliderSmall .slick-arrow,
+.sliderBig .slick-arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -238,13 +239,15 @@ section {
   z-index: 1;
 }
 
-.sliderSmall .slick-arrow.slick-prev {
+.sliderSmall .slick-arrow.slick-prev,
+.sliderBig .slick-arrow.slick-prev {
   left: 5px;
   background: url(../img/arrow-left.svg) no-repeat;
   background-size: contain;
 }
 
-.sliderSmall .slick-arrow.slick-next {
+.sliderSmall .slick-arrow.slick-next,
+.sliderBig .slick-arrow.slick-next {
   right: 5px;
   background: url(../img/arrow-right.svg) no-repeat;
   background-size: contain;
@@ -261,7 +264,6 @@ section {
   margin-bottom: 50px;
 }
 
-
 .gallery__subtitle {
   text-align: center;
   margin-bottom: 30px;
@@ -271,7 +273,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   margin-bottom: 10px;
 }
 
@@ -282,10 +283,6 @@ section {
   letter-spacing: 1px;
   cursor: pointer;
   margin-right: 10px;
-}
-
-.gallery__caegories-link+.gallery__caegories-link {
-  /* margin-left: 10px; */
 }
 
 .gallery__caegories-link.active {
