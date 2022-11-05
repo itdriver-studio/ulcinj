@@ -28,7 +28,7 @@ $('.rooms__sliderbigOne').slick({
   infinite: true,
   arrows: false,
   responsive: [{
-    breakpoint: 500,
+    breakpoint: 501,
     settings: {
       arrows: true,
     },
@@ -62,7 +62,7 @@ $('.rooms__sliderbigTwo').slick({
   infinite: true,
   arrows: false,
   responsive: [{
-    breakpoint: 500,
+    breakpoint: 501,
     settings: {
       arrows: true,
     },
@@ -96,7 +96,7 @@ $('.rooms__sliderbigThree').slick({
   infinite: true,
   arrows: false,
   responsive: [{
-    breakpoint: 500,
+    breakpoint: 501,
     settings: {
       arrows: true,
     },
@@ -130,7 +130,7 @@ $('.rooms__sliderbigFour').slick({
   infinite: true,
   arrows: false,
   responsive: [{
-    breakpoint: 500,
+    breakpoint: 501,
     settings: {
       arrows: true,
     },
