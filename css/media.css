@@ -7,19 +7,15 @@
 }
 
 @media (max-width: 1240px) {
-  .room__card {
-    max-width: 500px;
-  }
-}
 
-@media (max-width: 1040px) {
-  .room__card {
-    max-width: 90%
+  .hotel__room {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between
   }
 }
 
 @media (max-width: 1000px) {
-
   .excursions__slider {
     max-width: 50%;
   }
@@ -49,6 +45,14 @@
 
   .excursions__slider {
     max-width: 100%;
+    align-self: center;
+  }
+
+  .hotel__room {
+    flex-direction: column;
+  }
+
+  .room__slider-inner {
     align-self: center;
   }
 }
@@ -125,18 +129,25 @@
     width: 100%;
   }
 
-  .rooms__inner :last-child {
-    margin-bottom: 0;
-  }
-
-  .room__card {
-    max-width: 100%;
-    padding: 0;
-  }
-
   .gallery__bricks-item {
     width: 100%;
     height: 340px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .room__slider-inner {
+    max-width: 100%;
+  }
+
+  .room__slider {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .sliderSmallOne {
+    display: none;
   }
 }
 
@@ -158,12 +169,10 @@
     top: 35px;
   }
 
-  .sliderSmall {
-    display: none;
-  }
-
   .gallery__bricks-item {
     width: 100%;
     height: 280px;
   }
 }
+
+@media(max-width:324px) {}

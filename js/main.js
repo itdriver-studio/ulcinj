@@ -23,141 +23,20 @@ $('.excursions__slider').slick({
   speed: 2200,
 });
 
-$('.rooms__sliderbigOne').slick({
-  asNavFor: '.rooms__slidersmallOne',
-  infinite: true,
-  arrows: false,
-  responsive: [{
-    breakpoint: 501,
-    settings: {
-      arrows: true,
-    },
-  }],
+$('.sliderBigOne').slick({
+  asNavFor: '.sliderSmallOne',
 });
 
-$('.rooms__slidersmallOne').slick({
-  arrows: false,
-  slidesToShow: 5,
-  asNavFor: '.rooms__sliderbigOne',
-  infinite: true,
+$('.sliderSmallOne').slick({
+  asNavFor: '.sliderBigOne',
+  slidesToShow: 3,
   centerMode: true,
-  arrows: true,
-  responsive: [{
-      breakpoint: 1240,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 2,
-      },
-    }
-  ],
+  centerPadding: '110px',
+  focusOnSelect: true,
+  arrows: false,
 });
 
-$('.rooms__sliderbigTwo').slick({
-  asNavFor: '.rooms__slidersmallTwo',
-  infinite: true,
-  arrows: false,
-  responsive: [{
-    breakpoint: 501,
-    settings: {
-      arrows: true,
-    },
-  }],
-});
 
-$('.rooms__slidersmallTwo').slick({
-  arrows: false,
-  slidesToShow: 5,
-  asNavFor: '.rooms__sliderbigTwo',
-  infinite: true,
-  centerMode: true,
-  arrows: true,
-  responsive: [{
-      breakpoint: 1240,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 2,
-      },
-    }
-  ],
-});
-
-$('.rooms__sliderbigThree').slick({
-  asNavFor: '.rooms__slidersmallThree',
-  infinite: true,
-  arrows: false,
-  responsive: [{
-    breakpoint: 501,
-    settings: {
-      arrows: true,
-    },
-  }],
-});
-
-$('.rooms__slidersmallThree').slick({
-  arrows: false,
-  slidesToShow: 5,
-  asNavFor: '.rooms__sliderbigThree',
-  infinite: true,
-  centerMode: true,
-  arrows: true,
-  responsive: [{
-      breakpoint: 1240,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 2,
-      },
-    }
-  ],
-});
-
-$('.rooms__sliderbigFour').slick({
-  asNavFor: '.rooms__slidersmallFour',
-  infinite: true,
-  arrows: false,
-  responsive: [{
-    breakpoint: 501,
-    settings: {
-      arrows: true,
-    },
-  }],
-});
-
-$('.rooms__slidersmallFour').slick({
-  arrows: false,
-  slidesToShow: 5,
-  asNavFor: '.rooms__sliderbigFour',
-  infinite: true,
-  centerMode: true,
-  arrows: true,
-  responsive: [{
-      breakpoint: 1240,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 700,
-      settings: {
-        slidesToShow: 2,
-      },
-    }
-  ],
-});
 
 $('.gallery__caegories-link').click(function () {
   const value = $(this).attr('data-filter');
