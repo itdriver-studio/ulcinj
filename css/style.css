@@ -154,8 +154,6 @@ section {
   background-image: url(../img/hotel.jpg);
 }
 
-.hotel_inner {}
-
 .hotel__title {
   text-align: center;
 }
@@ -167,7 +165,6 @@ section {
 
 .hotel__rooms {
   background-color: rgba(169, 110, 43, 0.8);
-
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -178,8 +175,6 @@ section {
   max-width: 600px;
   padding: 10px;
   margin-bottom: 20px;
-
-
 }
 
 .room__title {
