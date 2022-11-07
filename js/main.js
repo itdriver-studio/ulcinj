@@ -36,6 +36,45 @@ $('.sliderSmallOne').slick({
   arrows: false,
 });
 
+$('.sliderBigTwo').slick({
+  asNavFor: '.sliderSmallTwo',
+});
+
+$('.sliderSmallTwo').slick({
+  asNavFor: '.sliderBigTwo',
+  slidesToShow: 3,
+  centerMode: true,
+  centerPadding: '110px',
+  focusOnSelect: true,
+  arrows: false,
+});
+
+$('.sliderBigThree').slick({
+  asNavFor: '.sliderSmallThree',
+});
+
+$('.sliderSmallThree').slick({
+  asNavFor: '.sliderBigThree',
+  slidesToShow: 3,
+  centerMode: true,
+  centerPadding: '110px',
+  focusOnSelect: true,
+  arrows: false,
+});
+
+$('.sliderBigFour').slick({
+  asNavFor: '.sliderSmallFour',
+});
+
+$('.sliderSmallFour').slick({
+  asNavFor: '.sliderBigFour',
+  slidesToShow: 3,
+  centerMode: true,
+  centerPadding: '110px',
+  focusOnSelect: true,
+  arrows: false,
+});
+
 
 
 $('.gallery__caegories-link').click(function () {
