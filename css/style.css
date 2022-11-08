@@ -7,8 +7,23 @@
   height: 100%;
 }
 
+
+body {
+  font-family: 'Domine', sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+
 section {
   padding: 70px 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+
 }
 
 .container {
@@ -416,7 +431,7 @@ section {
 }
 
 .contacts__map iframe {
-  height: 300px;
+  height: 100%;
   width: 100%;
 }
 
