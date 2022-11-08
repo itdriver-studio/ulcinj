@@ -37,6 +37,7 @@
 
   .contacts__info {
     order: -1;
+    max-width: 100%;
   }
 
   .contacts__map {
@@ -207,8 +208,4 @@
     width: 100%;
     height: 280px;
   }
-
-  /* .contacts__map {
-    display: none;
-  } */
 }

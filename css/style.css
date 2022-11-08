@@ -358,6 +358,10 @@ section {
   color: antiquewhite;
 }
 
+.contacts__text {
+  margin-bottom: 40px;
+}
+
 .contacts__telephone {
   position: relative;
   padding-left: 40px;
