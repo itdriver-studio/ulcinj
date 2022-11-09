@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Domine";
+  src: url("../fonts/Domine-Regular.woff2"),
+    url("../fonts/Domine-Regular.woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Domine";
+  src: url("../fonts/Domine-Bold.woff2"),
+    url("../fonts/Domine-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Bold.woff2"),
+    url("../fonts/Montserrat-Bold.woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 .in {
   display: flex;
   justify-content: center;
@@ -20,8 +47,8 @@ section {
 
 h2 {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Montserrat';
+  /* font-weight: 700; */
   letter-spacing: 2px;
 
 }
